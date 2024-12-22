@@ -1,0 +1,24 @@
+# Changelog
+
+## [0.0.3] - 2023-10-12
+
+### Initial Commit
+- Initial commit of `loguru-rich-sink`.
+
+### Added
+- Enhanced logger setup and usage with rich.
+- Improved progress bar initialization.
+- Added exception handling in `on_exit` function.
+- Updated `RichSink` class for better log message formatting.
+- Refactored code for better readability and maintainability.
+
+## [0.0.2] - 2023-10-05
+### Added
+- Added support for rich formatting in loguru logs.
+- Implemented custom log levels and gradients.
+- Integrated progress bar using rich.
+
+## [0.0.1] - 2023-09-30
+### Added
+- Project setup and initial configuration.
+- Basic logging functionality with loguru.
