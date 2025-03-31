@@ -6,9 +6,13 @@ import atexit
 import sys
 
 from loguru import (
-    Logger,  # type: ignore
     logger,
 )
+try:
+    from loguru import Logger # type: ignore
+except ImportError:
+    pass
+
 from rich.console import Console
 from rich.progress import (
     BarColumn,
