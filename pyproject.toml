@@ -1,6 +1,6 @@
 [project]
 name = "loguru-rich-sink"
-version = "0.0.3"
+version = "0.0.3.a"
 description = "A loguru sink that uses rich to format log messages."
 authors = [
     { name = "Max Ludden", email = "dev@maxludden.com" }
@@ -9,7 +9,7 @@ dependencies = [
     "rich>=13.8.1",
     "mypy>=1.11.2",
     "rich-gradient>=0.1.7",
-    "loguru>=0.7.2",
+    "snoop>=0.6.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.10"
